@@ -1,1 +1,1 @@
-web: mkdir -p db_persistent && cp -n data/eluno_oms.db db_persistent/eluno_oms.db && uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+web: uvicorn backend.main:app --host 0.0.0.0 --port $PORT

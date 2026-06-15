@@ -4,10 +4,8 @@ services:
     name: eluno-oms-backend
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: mkdir -p db_persistent && cp -n data/eluno_oms.db db_persistent/eluno_oms.db && uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
     envVars:
-      - key: DATABASE_URL
-        value: sqlite:////opt/render/project/src/db_persistent/eluno_oms.db
       - key: GROQ_API_KEY
         sync: false  # Will be inputted manually in the Render dashboard
       - key: GROQ_MODEL
@@ -15,12 +13,4 @@ services:
       - key: BREACH_ALERT_THRESHOLD
         value: "0.70"
       - key: PYTHON_VERSION
-        value: "3.11.0"
-    
-    # Note: To enable persistence on Render (paid plan required),
-    # uncomment the disk section below. If commented out, the app
-    # will run on Render's ephemeral disk (resets on restart).
-    # disk:
-    #   name: sqlite-db
-    #   mountPath: /opt/render/project/src/db_persistent
-    #   sizeGB: 1
+        value: "3.11.9"
