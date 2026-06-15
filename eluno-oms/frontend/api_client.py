@@ -1,11 +1,11 @@
-"""HTTP client for Eluno OMS FastAPI backend."""
+z"""HTTP client for Eluno OMS FastAPI backend."""
 
 import frontend.bootstrap  # noqa: F401
 import os
 
 import httpx
 
-API_BASE = os.getenv("API_BASE_URL", "https://eluno-oms-6tn5.onrender.com")
+API_BASE = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
 TIMEOUT = 30.0
 
 
