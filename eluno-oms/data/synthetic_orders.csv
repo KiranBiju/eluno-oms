@@ -1,0 +1,1201 @@
+lens_type,current_stage,days_elapsed,sla_days,delay_flag
+Single Vision,Order Placed,4,5,0
+Bifocal,Manufacturing,2,7,0
+Single Vision,Prescription Verified,9,5,1
+Single Vision,Prescription Verified,3,5,0
+Bifocal,Order Placed,8,7,1
+Photochromic,Reorder Required,3,8,1
+Progressive,Order Placed,5,10,0
+Blue Cut,Quality Check Failed,4,6,0
+Progressive,Prescription Verified,2,10,0
+Blue Cut,Prescription Verified,5,6,0
+Progressive,Quality Check,1,10,0
+Blue Cut,Prescription Verified,6,6,0
+Progressive,Quality Check Failed,6,10,1
+Single Vision,Manufacturing,4,5,1
+Bifocal,Prescription Verified,6,7,1
+Progressive,Lens Allocated,11,10,1
+Progressive,Prescription Verified,5,10,0
+Photochromic,Manufacturing,2,8,0
+Blue Cut,Reorder Required,4,6,1
+Photochromic,Manufacturing,10,8,1
+Single Vision,Manufacturing,0,5,0
+Progressive,Reorder Required,8,10,0
+Photochromic,Quality Check Failed,3,8,1
+Blue Cut,Dispatched,2,6,0
+Progressive,Lens Allocated,7,10,0
+Photochromic,Quality Check,11,8,1
+Photochromic,Reorder Required,5,8,0
+Bifocal,Dispatched,1,7,0
+Single Vision,Prescription Verified,2,5,0
+Bifocal,Reorder Required,9,7,1
+Blue Cut,Quality Check,8,6,1
+Single Vision,Prescription Verified,10,5,1
+Progressive,Quality Check Failed,3,10,0
+Bifocal,Dispatched,0,7,0
+Progressive,Lens Allocated,3,10,0
+Progressive,Manufacturing,4,10,0
+Progressive,Lens Allocated,0,10,0
+Photochromic,Quality Check Failed,7,8,1
+Progressive,Manufacturing,1,10,0
+Bifocal,Prescription Verified,1,7,0
+Blue Cut,Prescription Verified,8,6,1
+Bifocal,Dispatched,8,7,1
+Photochromic,Reorder Required,3,8,1
+Bifocal,Quality Check,6,7,1
+Progressive,Dispatched,14,10,0
+Bifocal,Prescription Verified,5,7,0
+Single Vision,Manufacturing,9,5,1
+Single Vision,Manufacturing,1,5,0
+Single Vision,Quality Check Failed,1,5,1
+Progressive,Dispatched,6,10,0
+Photochromic,Lens Allocated,11,8,1
+Photochromic,Dispatched,3,8,0
+Blue Cut,Reorder Required,3,6,0
+Blue Cut,Quality Check Failed,6,6,1
+Single Vision,Prescription Verified,0,5,0
+Blue Cut,Quality Check Failed,1,6,0
+Bifocal,Dispatched,2,7,0
+Blue Cut,Lens Allocated,4,6,0
+Blue Cut,Manufacturing,1,6,0
+Blue Cut,Prescription Verified,0,6,0
+Photochromic,Order Placed,1,8,0
+Bifocal,Lens Allocated,6,7,1
+Bifocal,Reorder Required,0,7,0
+Single Vision,Reorder Required,4,5,1
+Blue Cut,Quality Check,6,6,1
+Photochromic,Dispatched,2,8,0
+Bifocal,Quality Check,3,7,0
+Single Vision,Order Placed,5,5,0
+Photochromic,Dispatched,8,8,1
+Photochromic,Lens Allocated,0,8,0
+Photochromic,Prescription Verified,13,8,1
+Photochromic,Prescription Verified,10,8,1
+Blue Cut,Prescription Verified,9,6,1
+Photochromic,Order Placed,9,8,0
+Photochromic,Quality Check Failed,4,8,0
+Progressive,Manufacturing,8,10,0
+Progressive,Dispatched,10,10,1
+Single Vision,Order Placed,7,5,1
+Photochromic,Prescription Verified,1,8,0
+Photochromic,Manufacturing,8,8,1
+Single Vision,Manufacturing,5,5,1
+Photochromic,Quality Check,9,8,1
+Photochromic,Order Placed,10,8,1
+Progressive,Prescription Verified,4,10,0
+Progressive,Prescription Verified,3,10,0
+Photochromic,Lens Allocated,4,8,0
+Progressive,Manufacturing,10,10,1
+Progressive,Dispatched,8,10,0
+Single Vision,Prescription Verified,10,5,1
+Progressive,Order Placed,0,10,0
+Progressive,Lens Allocated,8,10,0
+Bifocal,Dispatched,8,7,1
+Photochromic,Order Placed,1,8,0
+Single Vision,Lens Allocated,8,5,0
+Progressive,Lens Allocated,13,10,0
+Progressive,Quality Check Failed,1,10,1
+Bifocal,Manufacturing,10,7,1
+Blue Cut,Lens Allocated,3,6,0
+Bifocal,Lens Allocated,6,7,0
+Progressive,Reorder Required,7,10,0
+Single Vision,Reorder Required,0,5,1
+Bifocal,Manufacturing,7,7,1
+Bifocal,Manufacturing,0,7,0
+Bifocal,Reorder Required,5,7,0
+Single Vision,Quality Check,5,5,1
+Blue Cut,Quality Check Failed,0,6,0
+Progressive,Lens Allocated,8,10,0
+Single Vision,Prescription Verified,9,5,1
+Progressive,Reorder Required,3,10,1
+Photochromic,Manufacturing,4,8,0
+Single Vision,Reorder Required,0,5,1
+Photochromic,Manufacturing,5,8,1
+Progressive,Quality Check Failed,3,10,1
+Progressive,Quality Check,13,10,1
+Progressive,Lens Allocated,6,10,0
+Blue Cut,Reorder Required,10,6,1
+Photochromic,Quality Check,6,8,0
+Photochromic,Order Placed,4,8,0
+Progressive,Manufacturing,13,10,1
+Progressive,Dispatched,14,10,1
+Bifocal,Dispatched,12,7,1
+Bifocal,Prescription Verified,4,7,0
+Photochromic,Quality Check Failed,1,8,1
+Bifocal,Quality Check,3,7,0
+Bifocal,Lens Allocated,0,7,0
+Single Vision,Manufacturing,7,5,1
+Blue Cut,Reorder Required,10,6,1
+Blue Cut,Dispatched,6,6,1
+Single Vision,Prescription Verified,6,5,1
+Photochromic,Dispatched,0,8,0
+Photochromic,Manufacturing,13,8,0
+Blue Cut,Quality Check Failed,7,6,1
+Photochromic,Reorder Required,13,8,1
+Bifocal,Dispatched,7,7,1
+Bifocal,Quality Check,12,7,1
+Blue Cut,Manufacturing,4,6,1
+Progressive,Manufacturing,8,10,0
+Photochromic,Prescription Verified,2,8,0
+Bifocal,Manufacturing,6,7,1
+Single Vision,Reorder Required,6,5,1
+Single Vision,Manufacturing,6,5,1
+Single Vision,Reorder Required,7,5,1
+Blue Cut,Reorder Required,8,6,1
+Photochromic,Manufacturing,7,8,1
+Single Vision,Reorder Required,5,5,1
+Bifocal,Dispatched,2,7,0
+Photochromic,Order Placed,6,8,0
+Photochromic,Order Placed,1,8,0
+Blue Cut,Lens Allocated,7,6,1
+Progressive,Reorder Required,10,10,1
+Blue Cut,Quality Check,6,6,1
+Single Vision,Dispatched,0,5,0
+Photochromic,Order Placed,5,8,0
+Bifocal,Prescription Verified,12,7,1
+Single Vision,Order Placed,3,5,0
+Bifocal,Order Placed,9,7,1
+Bifocal,Dispatched,10,7,0
+Bifocal,Dispatched,11,7,1
+Progressive,Lens Allocated,3,10,0
+Bifocal,Quality Check,1,7,0
+Photochromic,Order Placed,4,8,0
+Photochromic,Reorder Required,6,8,1
+Bifocal,Prescription Verified,9,7,1
+Bifocal,Prescription Verified,11,7,1
+Photochromic,Prescription Verified,12,8,1
+Single Vision,Quality Check Failed,8,5,1
+Photochromic,Quality Check Failed,0,8,1
+Blue Cut,Prescription Verified,6,6,1
+Blue Cut,Lens Allocated,6,6,1
+Photochromic,Quality Check,9,8,1
+Photochromic,Dispatched,7,8,1
+Photochromic,Quality Check,5,8,0
+Bifocal,Prescription Verified,4,7,0
+Blue Cut,Manufacturing,7,6,1
+Progressive,Order Placed,15,10,1
+Bifocal,Dispatched,3,7,0
+Progressive,Quality Check,10,10,1
+Photochromic,Quality Check,8,8,0
+Bifocal,Prescription Verified,3,7,0
+Blue Cut,Dispatched,8,6,1
+Blue Cut,Dispatched,7,6,1
+Single Vision,Quality Check,3,5,0
+Blue Cut,Manufacturing,4,6,1
+Progressive,Dispatched,11,10,1
+Photochromic,Quality Check Failed,5,8,1
+Progressive,Quality Check,8,10,0
+Bifocal,Prescription Verified,11,7,1
+Single Vision,Lens Allocated,3,5,0
+Bifocal,Dispatched,4,7,0
+Photochromic,Quality Check,1,8,0
+Bifocal,Quality Check,3,7,0
+Progressive,Lens Allocated,9,10,0
+Photochromic,Lens Allocated,4,8,0
+Single Vision,Order Placed,8,5,1
+Bifocal,Dispatched,1,7,0
+Single Vision,Quality Check,7,5,1
+Progressive,Lens Allocated,1,10,0
+Progressive,Dispatched,3,10,0
+Single Vision,Reorder Required,7,5,1
+Single Vision,Lens Allocated,2,5,0
+Photochromic,Quality Check,1,8,0
+Bifocal,Prescription Verified,8,7,1
+Photochromic,Manufacturing,12,8,1
+Blue Cut,Quality Check,9,6,1
+Progressive,Order Placed,3,10,0
+Bifocal,Manufacturing,4,7,0
+Single Vision,Lens Allocated,3,5,0
+Bifocal,Prescription Verified,2,7,0
+Single Vision,Reorder Required,7,5,1
+Single Vision,Manufacturing,4,5,1
+Blue Cut,Prescription Verified,10,6,1
+Progressive,Manufacturing,13,10,0
+Bifocal,Quality Check,2,7,0
+Single Vision,Order Placed,2,5,0
+Progressive,Quality Check,14,10,0
+Progressive,Reorder Required,8,10,1
+Blue Cut,Dispatched,1,6,0
+Photochromic,Order Placed,6,8,0
+Progressive,Quality Check,0,10,0
+Single Vision,Manufacturing,10,5,1
+Single Vision,Quality Check,9,5,0
+Bifocal,Dispatched,8,7,1
+Progressive,Lens Allocated,13,10,1
+Blue Cut,Prescription Verified,7,6,1
+Progressive,Quality Check Failed,3,10,1
+Progressive,Reorder Required,15,10,1
+Photochromic,Order Placed,7,8,0
+Progressive,Quality Check Failed,3,10,1
+Blue Cut,Order Placed,10,6,1
+Blue Cut,Reorder Required,0,6,0
+Progressive,Dispatched,14,10,1
+Bifocal,Quality Check,8,7,0
+Progressive,Dispatched,15,10,0
+Photochromic,Manufacturing,11,8,1
+Photochromic,Reorder Required,1,8,0
+Single Vision,Dispatched,1,5,0
+Bifocal,Dispatched,11,7,1
+Progressive,Reorder Required,15,10,1
+Photochromic,Lens Allocated,6,8,0
+Bifocal,Lens Allocated,1,7,0
+Progressive,Reorder Required,10,10,1
+Single Vision,Quality Check,4,5,0
+Photochromic,Dispatched,13,8,0
+Photochromic,Dispatched,5,8,0
+Progressive,Reorder Required,14,10,1
+Bifocal,Reorder Required,3,7,1
+Blue Cut,Order Placed,5,6,0
+Blue Cut,Reorder Required,6,6,1
+Bifocal,Dispatched,0,7,0
+Bifocal,Quality Check Failed,1,7,1
+Blue Cut,Prescription Verified,8,6,1
+Single Vision,Lens Allocated,6,5,1
+Bifocal,Prescription Verified,7,7,1
+Progressive,Quality Check Failed,12,10,1
+Photochromic,Reorder Required,5,8,1
+Blue Cut,Order Placed,9,6,0
+Progressive,Manufacturing,2,10,0
+Blue Cut,Prescription Verified,10,6,1
+Single Vision,Dispatched,2,5,0
+Progressive,Order Placed,1,10,0
+Progressive,Order Placed,9,10,1
+Blue Cut,Lens Allocated,3,6,0
+Photochromic,Reorder Required,9,8,1
+Bifocal,Prescription Verified,9,7,1
+Photochromic,Manufacturing,7,8,1
+Blue Cut,Quality Check,7,6,1
+Single Vision,Dispatched,4,5,0
+Photochromic,Lens Allocated,1,8,0
+Blue Cut,Quality Check Failed,9,6,1
+Progressive,Dispatched,9,10,1
+Blue Cut,Dispatched,1,6,0
+Bifocal,Reorder Required,9,7,1
+Progressive,Order Placed,12,10,1
+Photochromic,Order Placed,9,8,1
+Progressive,Manufacturing,11,10,1
+Progressive,Lens Allocated,3,10,0
+Single Vision,Quality Check,7,5,0
+Progressive,Lens Allocated,2,10,0
+Progressive,Quality Check Failed,13,10,1
+Photochromic,Quality Check Failed,8,8,1
+Bifocal,Quality Check,7,7,1
+Progressive,Quality Check Failed,3,10,1
+Single Vision,Lens Allocated,3,5,0
+Blue Cut,Quality Check Failed,1,6,1
+Single Vision,Quality Check,8,5,0
+Progressive,Quality Check,12,10,1
+Progressive,Prescription Verified,7,10,0
+Blue Cut,Order Placed,9,6,1
+Photochromic,Quality Check Failed,9,8,1
+Blue Cut,Quality Check,10,6,1
+Bifocal,Order Placed,0,7,0
+Progressive,Dispatched,3,10,0
+Single Vision,Manufacturing,8,5,1
+Photochromic,Reorder Required,9,8,1
+Blue Cut,Prescription Verified,7,6,1
+Progressive,Order Placed,11,10,1
+Blue Cut,Manufacturing,5,6,0
+Progressive,Quality Check Failed,1,10,1
+Bifocal,Prescription Verified,7,7,0
+Bifocal,Order Placed,0,7,0
+Progressive,Manufacturing,4,10,0
+Photochromic,Manufacturing,1,8,0
+Photochromic,Manufacturing,9,8,1
+Progressive,Lens Allocated,0,10,0
+Progressive,Lens Allocated,4,10,0
+Photochromic,Quality Check,12,8,1
+Single Vision,Lens Allocated,0,5,0
+Progressive,Manufacturing,10,10,0
+Bifocal,Reorder Required,8,7,0
+Blue Cut,Quality Check Failed,8,6,1
+Bifocal,Order Placed,11,7,1
+Photochromic,Quality Check,7,8,1
+Single Vision,Order Placed,7,5,1
+Blue Cut,Prescription Verified,7,6,1
+Blue Cut,Prescription Verified,1,6,0
+Progressive,Lens Allocated,2,10,0
+Bifocal,Quality Check,9,7,1
+Photochromic,Quality Check Failed,6,8,1
+Photochromic,Quality Check,7,8,1
+Blue Cut,Prescription Verified,11,6,0
+Photochromic,Manufacturing,6,8,1
+Bifocal,Reorder Required,5,7,1
+Blue Cut,Reorder Required,11,6,1
+Progressive,Quality Check Failed,4,10,1
+Blue Cut,Prescription Verified,1,6,0
+Single Vision,Prescription Verified,6,5,0
+Progressive,Lens Allocated,1,10,0
+Photochromic,Quality Check Failed,10,8,1
+Blue Cut,Order Placed,4,6,0
+Photochromic,Quality Check,5,8,0
+Single Vision,Manufacturing,2,5,0
+Blue Cut,Manufacturing,1,6,0
+Progressive,Quality Check Failed,3,10,1
+Photochromic,Manufacturing,12,8,1
+Photochromic,Order Placed,9,8,1
+Progressive,Order Placed,5,10,0
+Progressive,Quality Check,10,10,1
+Bifocal,Lens Allocated,9,7,1
+Single Vision,Lens Allocated,10,5,1
+Single Vision,Manufacturing,6,5,1
+Progressive,Quality Check,10,10,1
+Photochromic,Prescription Verified,0,8,0
+Bifocal,Lens Allocated,12,7,1
+Single Vision,Quality Check,7,5,1
+Blue Cut,Dispatched,6,6,1
+Photochromic,Prescription Verified,5,8,0
+Blue Cut,Prescription Verified,4,6,0
+Photochromic,Dispatched,8,8,1
+Single Vision,Manufacturing,6,5,1
+Bifocal,Quality Check,3,7,0
+Bifocal,Quality Check,4,7,0
+Progressive,Prescription Verified,0,10,0
+Blue Cut,Reorder Required,2,6,0
+Photochromic,Manufacturing,8,8,1
+Progressive,Prescription Verified,12,10,1
+Single Vision,Reorder Required,0,5,1
+Single Vision,Quality Check Failed,9,5,1
+Blue Cut,Quality Check,1,6,0
+Blue Cut,Order Placed,5,6,0
+Bifocal,Dispatched,11,7,1
+Single Vision,Reorder Required,1,5,0
+Photochromic,Reorder Required,8,8,1
+Progressive,Manufacturing,10,10,1
+Single Vision,Manufacturing,5,5,1
+Bifocal,Manufacturing,1,7,0
+Bifocal,Quality Check,3,7,0
+Bifocal,Lens Allocated,12,7,1
+Single Vision,Lens Allocated,10,5,1
+Photochromic,Dispatched,10,8,1
+Photochromic,Quality Check Failed,13,8,1
+Blue Cut,Prescription Verified,7,6,1
+Progressive,Quality Check,1,10,0
+Progressive,Prescription Verified,9,10,1
+Single Vision,Order Placed,5,5,1
+Single Vision,Prescription Verified,9,5,1
+Blue Cut,Dispatched,9,6,1
+Single Vision,Dispatched,9,5,1
+Progressive,Dispatched,4,10,0
+Single Vision,Dispatched,1,5,0
+Progressive,Prescription Verified,5,10,0
+Single Vision,Manufacturing,7,5,1
+Photochromic,Lens Allocated,5,8,0
+Progressive,Quality Check,12,10,1
+Progressive,Order Placed,10,10,0
+Single Vision,Reorder Required,4,5,0
+Photochromic,Lens Allocated,5,8,0
+Single Vision,Lens Allocated,5,5,1
+Blue Cut,Lens Allocated,9,6,1
+Single Vision,Quality Check,8,5,1
+Progressive,Lens Allocated,2,10,0
+Blue Cut,Quality Check Failed,0,6,1
+Bifocal,Manufacturing,5,7,1
+Blue Cut,Manufacturing,3,6,0
+Bifocal,Lens Allocated,1,7,0
+Progressive,Prescription Verified,1,10,0
+Progressive,Lens Allocated,12,10,1
+Bifocal,Lens Allocated,11,7,1
+Blue Cut,Quality Check Failed,10,6,1
+Photochromic,Quality Check,12,8,1
+Blue Cut,Manufacturing,8,6,1
+Blue Cut,Manufacturing,5,6,1
+Photochromic,Dispatched,7,8,1
+Blue Cut,Reorder Required,2,6,1
+Photochromic,Lens Allocated,13,8,1
+Blue Cut,Quality Check Failed,8,6,1
+Photochromic,Prescription Verified,4,8,0
+Single Vision,Lens Allocated,4,5,0
+Blue Cut,Lens Allocated,6,6,0
+Bifocal,Dispatched,5,7,0
+Single Vision,Reorder Required,0,5,1
+Progressive,Manufacturing,12,10,1
+Single Vision,Quality Check Failed,1,5,1
+Progressive,Lens Allocated,4,10,0
+Single Vision,Quality Check,7,5,1
+Bifocal,Dispatched,7,7,1
+Single Vision,Order Placed,4,5,0
+Bifocal,Lens Allocated,8,7,1
+Photochromic,Reorder Required,1,8,1
+Bifocal,Quality Check,1,7,0
+Single Vision,Manufacturing,6,5,1
+Single Vision,Prescription Verified,7,5,1
+Single Vision,Manufacturing,2,5,0
+Progressive,Reorder Required,0,10,1
+Bifocal,Reorder Required,2,7,1
+Single Vision,Quality Check Failed,1,5,1
+Photochromic,Order Placed,6,8,0
+Blue Cut,Order Placed,10,6,1
+Progressive,Quality Check,0,10,0
+Progressive,Prescription Verified,11,10,1
+Single Vision,Quality Check Failed,2,5,0
+Photochromic,Quality Check Failed,13,8,1
+Blue Cut,Dispatched,10,6,1
+Bifocal,Prescription Verified,11,7,1
+Blue Cut,Order Placed,4,6,0
+Bifocal,Order Placed,12,7,1
+Single Vision,Quality Check Failed,4,5,1
+Photochromic,Dispatched,4,8,0
+Single Vision,Manufacturing,4,5,0
+Single Vision,Quality Check Failed,4,5,0
+Progressive,Reorder Required,12,10,1
+Blue Cut,Quality Check Failed,2,6,1
+Blue Cut,Quality Check Failed,8,6,1
+Blue Cut,Prescription Verified,6,6,1
+Bifocal,Quality Check,5,7,0
+Single Vision,Prescription Verified,5,5,1
+Progressive,Dispatched,13,10,1
+Blue Cut,Quality Check Failed,7,6,1
+Progressive,Reorder Required,8,10,1
+Single Vision,Prescription Verified,10,5,1
+Progressive,Lens Allocated,0,10,0
+Bifocal,Dispatched,0,7,0
+Bifocal,Prescription Verified,3,7,0
+Progressive,Quality Check Failed,12,10,1
+Bifocal,Dispatched,5,7,0
+Progressive,Dispatched,2,10,0
+Photochromic,Lens Allocated,8,8,1
+Progressive,Quality Check,7,10,0
+Single Vision,Order Placed,2,5,0
+Blue Cut,Reorder Required,8,6,1
+Blue Cut,Manufacturing,9,6,1
+Blue Cut,Manufacturing,1,6,0
+Bifocal,Prescription Verified,7,7,1
+Blue Cut,Prescription Verified,10,6,1
+Progressive,Quality Check Failed,2,10,1
+Progressive,Quality Check,5,10,0
+Bifocal,Quality Check Failed,8,7,1
+Bifocal,Manufacturing,12,7,1
+Photochromic,Quality Check Failed,7,8,1
+Photochromic,Prescription Verified,1,8,0
+Progressive,Reorder Required,15,10,1
+Photochromic,Prescription Verified,2,8,0
+Progressive,Prescription Verified,14,10,1
+Photochromic,Quality Check Failed,2,8,1
+Photochromic,Lens Allocated,12,8,1
+Blue Cut,Order Placed,1,6,0
+Photochromic,Lens Allocated,4,8,0
+Bifocal,Lens Allocated,5,7,0
+Bifocal,Quality Check Failed,8,7,1
+Progressive,Manufacturing,8,10,0
+Progressive,Prescription Verified,5,10,0
+Photochromic,Lens Allocated,2,8,0
+Photochromic,Quality Check Failed,13,8,1
+Single Vision,Prescription Verified,0,5,0
+Photochromic,Quality Check,10,8,1
+Photochromic,Reorder Required,9,8,1
+Photochromic,Quality Check,10,8,1
+Blue Cut,Manufacturing,10,6,1
+Single Vision,Lens Allocated,7,5,1
+Blue Cut,Manufacturing,5,6,1
+Progressive,Quality Check Failed,11,10,1
+Progressive,Prescription Verified,10,10,1
+Single Vision,Quality Check,7,5,1
+Single Vision,Order Placed,4,5,0
+Blue Cut,Reorder Required,3,6,1
+Bifocal,Quality Check Failed,9,7,1
+Bifocal,Dispatched,8,7,1
+Progressive,Dispatched,0,10,0
+Single Vision,Reorder Required,8,5,1
+Photochromic,Quality Check Failed,0,8,0
+Blue Cut,Dispatched,4,6,0
+Photochromic,Order Placed,13,8,0
+Bifocal,Quality Check,11,7,1
+Blue Cut,Quality Check Failed,0,6,1
+Photochromic,Manufacturing,5,8,1
+Single Vision,Reorder Required,8,5,1
+Photochromic,Prescription Verified,2,8,0
+Single Vision,Reorder Required,5,5,1
+Progressive,Lens Allocated,6,10,0
+Photochromic,Reorder Required,8,8,0
+Progressive,Dispatched,14,10,0
+Photochromic,Lens Allocated,5,8,0
+Photochromic,Quality Check Failed,2,8,1
+Photochromic,Quality Check,9,8,1
+Photochromic,Dispatched,11,8,1
+Blue Cut,Order Placed,5,6,0
+Progressive,Prescription Verified,13,10,1
+Single Vision,Dispatched,4,5,0
+Photochromic,Manufacturing,11,8,1
+Photochromic,Reorder Required,2,8,1
+Bifocal,Order Placed,9,7,1
+Single Vision,Manufacturing,0,5,0
+Blue Cut,Quality Check Failed,6,6,1
+Blue Cut,Dispatched,11,6,1
+Bifocal,Manufacturing,8,7,1
+Photochromic,Reorder Required,5,8,1
+Blue Cut,Quality Check Failed,8,6,1
+Progressive,Dispatched,6,10,0
+Bifocal,Quality Check,8,7,1
+Progressive,Quality Check,6,10,0
+Blue Cut,Quality Check Failed,7,6,1
+Progressive,Quality Check,3,10,0
+Photochromic,Reorder Required,6,8,1
+Bifocal,Quality Check,0,7,0
+Progressive,Prescription Verified,11,10,1
+Progressive,Dispatched,6,10,0
+Bifocal,Quality Check,8,7,1
+Bifocal,Prescription Verified,9,7,1
+Bifocal,Manufacturing,0,7,0
+Photochromic,Manufacturing,10,8,1
+Progressive,Dispatched,3,10,0
+Bifocal,Order Placed,8,7,1
+Bifocal,Reorder Required,10,7,1
+Blue Cut,Manufacturing,4,6,0
+Single Vision,Prescription Verified,10,5,1
+Photochromic,Order Placed,2,8,0
+Blue Cut,Lens Allocated,0,6,0
+Blue Cut,Dispatched,2,6,0
+Progressive,Order Placed,0,10,0
+Progressive,Prescription Verified,10,10,1
+Photochromic,Dispatched,2,8,0
+Photochromic,Dispatched,4,8,0
+Bifocal,Prescription Verified,5,7,0
+Bifocal,Dispatched,10,7,1
+Bifocal,Order Placed,11,7,1
+Progressive,Manufacturing,5,10,0
+Photochromic,Reorder Required,13,8,1
+Blue Cut,Prescription Verified,2,6,0
+Bifocal,Dispatched,5,7,0
+Bifocal,Order Placed,4,7,0
+Blue Cut,Manufacturing,7,6,1
+Progressive,Order Placed,8,10,0
+Progressive,Manufacturing,1,10,0
+Single Vision,Dispatched,4,5,0
+Bifocal,Reorder Required,10,7,1
+Progressive,Prescription Verified,9,10,1
+Bifocal,Manufacturing,2,7,0
+Blue Cut,Lens Allocated,7,6,1
+Photochromic,Quality Check Failed,6,8,1
+Blue Cut,Manufacturing,3,6,0
+Photochromic,Prescription Verified,8,8,1
+Progressive,Prescription Verified,3,10,0
+Single Vision,Manufacturing,9,5,1
+Photochromic,Dispatched,1,8,0
+Bifocal,Dispatched,1,7,0
+Photochromic,Dispatched,12,8,0
+Bifocal,Reorder Required,7,7,1
+Progressive,Order Placed,12,10,1
+Single Vision,Manufacturing,9,5,1
+Single Vision,Order Placed,1,5,0
+Blue Cut,Order Placed,4,6,0
+Blue Cut,Lens Allocated,2,6,0
+Blue Cut,Quality Check Failed,6,6,1
+Blue Cut,Reorder Required,1,6,1
+Photochromic,Lens Allocated,10,8,1
+Single Vision,Lens Allocated,8,5,1
+Bifocal,Manufacturing,0,7,0
+Single Vision,Quality Check,7,5,1
+Photochromic,Reorder Required,8,8,1
+Blue Cut,Quality Check Failed,2,6,0
+Single Vision,Order Placed,10,5,1
+Single Vision,Manufacturing,3,5,0
+Single Vision,Prescription Verified,9,5,0
+Photochromic,Order Placed,3,8,0
+Single Vision,Reorder Required,7,5,1
+Single Vision,Lens Allocated,8,5,1
+Bifocal,Quality Check Failed,9,7,1
+Progressive,Manufacturing,9,10,1
+Photochromic,Manufacturing,6,8,0
+Single Vision,Lens Allocated,10,5,1
+Photochromic,Dispatched,0,8,0
+Progressive,Reorder Required,10,10,1
+Progressive,Reorder Required,5,10,1
+Blue Cut,Manufacturing,3,6,0
+Progressive,Lens Allocated,14,10,1
+Photochromic,Reorder Required,6,8,1
+Bifocal,Reorder Required,3,7,0
+Progressive,Prescription Verified,14,10,1
+Single Vision,Manufacturing,0,5,0
+Progressive,Reorder Required,1,10,1
+Bifocal,Manufacturing,7,7,1
+Progressive,Order Placed,6,10,0
+Bifocal,Prescription Verified,11,7,1
+Blue Cut,Manufacturing,11,6,1
+Bifocal,Quality Check Failed,12,7,1
+Progressive,Quality Check,8,10,0
+Progressive,Dispatched,14,10,0
+Blue Cut,Quality Check Failed,3,6,1
+Blue Cut,Order Placed,9,6,1
+Bifocal,Order Placed,4,7,0
+Photochromic,Reorder Required,4,8,0
+Progressive,Manufacturing,12,10,1
+Photochromic,Quality Check Failed,4,8,1
+Blue Cut,Dispatched,7,6,1
+Progressive,Lens Allocated,4,10,0
+Photochromic,Dispatched,2,8,0
+Photochromic,Order Placed,8,8,0
+Single Vision,Order Placed,0,5,0
+Blue Cut,Lens Allocated,10,6,1
+Bifocal,Order Placed,3,7,0
+Photochromic,Dispatched,5,8,0
+Single Vision,Dispatched,10,5,1
+Single Vision,Reorder Required,0,5,0
+Progressive,Quality Check,0,10,0
+Photochromic,Reorder Required,12,8,1
+Single Vision,Lens Allocated,3,5,0
+Bifocal,Quality Check,5,7,0
+Progressive,Reorder Required,2,10,1
+Blue Cut,Dispatched,9,6,1
+Bifocal,Quality Check,10,7,1
+Single Vision,Order Placed,1,5,0
+Blue Cut,Reorder Required,6,6,1
+Single Vision,Lens Allocated,1,5,0
+Blue Cut,Reorder Required,10,6,1
+Single Vision,Order Placed,3,5,0
+Bifocal,Dispatched,4,7,0
+Single Vision,Prescription Verified,10,5,1
+Photochromic,Order Placed,2,8,0
+Progressive,Order Placed,6,10,0
+Photochromic,Lens Allocated,12,8,1
+Blue Cut,Prescription Verified,4,6,0
+Bifocal,Manufacturing,9,7,1
+Photochromic,Quality Check Failed,6,8,1
+Bifocal,Prescription Verified,8,7,1
+Progressive,Order Placed,3,10,0
+Blue Cut,Manufacturing,1,6,0
+Progressive,Reorder Required,10,10,0
+Blue Cut,Dispatched,3,6,0
+Progressive,Reorder Required,13,10,1
+Blue Cut,Prescription Verified,9,6,1
+Bifocal,Prescription Verified,1,7,0
+Progressive,Lens Allocated,12,10,1
+Bifocal,Reorder Required,5,7,1
+Single Vision,Order Placed,4,5,0
+Blue Cut,Quality Check Failed,4,6,0
+Single Vision,Lens Allocated,6,5,1
+Photochromic,Reorder Required,1,8,0
+Progressive,Prescription Verified,10,10,1
+Single Vision,Quality Check,6,5,1
+Single Vision,Manufacturing,9,5,1
+Bifocal,Lens Allocated,4,7,0
+Progressive,Quality Check,15,10,0
+Bifocal,Reorder Required,4,7,1
+Blue Cut,Prescription Verified,5,6,0
+Progressive,Manufacturing,15,10,1
+Single Vision,Lens Allocated,4,5,0
+Single Vision,Reorder Required,5,5,1
+Progressive,Dispatched,10,10,1
+Photochromic,Lens Allocated,4,8,0
+Progressive,Manufacturing,15,10,1
+Progressive,Quality Check,15,10,1
+Bifocal,Quality Check Failed,6,7,1
+Progressive,Prescription Verified,6,10,0
+Photochromic,Lens Allocated,10,8,1
+Single Vision,Dispatched,3,5,0
+Blue Cut,Quality Check,11,6,0
+Blue Cut,Dispatched,2,6,0
+Progressive,Manufacturing,8,10,1
+Blue Cut,Reorder Required,1,6,1
+Photochromic,Dispatched,9,8,1
+Photochromic,Reorder Required,8,8,1
+Photochromic,Prescription Verified,1,8,0
+Bifocal,Quality Check Failed,2,7,1
+Single Vision,Reorder Required,5,5,1
+Single Vision,Prescription Verified,4,5,0
+Bifocal,Manufacturing,7,7,1
+Photochromic,Lens Allocated,5,8,0
+Single Vision,Dispatched,1,5,0
+Progressive,Reorder Required,2,10,0
+Bifocal,Quality Check Failed,4,7,1
+Bifocal,Dispatched,5,7,0
+Blue Cut,Prescription Verified,7,6,1
+Blue Cut,Quality Check Failed,1,6,1
+Single Vision,Order Placed,5,5,1
+Bifocal,Manufacturing,8,7,1
+Photochromic,Reorder Required,7,8,1
+Bifocal,Lens Allocated,10,7,1
+Blue Cut,Order Placed,11,6,1
+Bifocal,Dispatched,9,7,1
+Single Vision,Manufacturing,3,5,0
+Progressive,Prescription Verified,3,10,0
+Photochromic,Lens Allocated,5,8,0
+Progressive,Manufacturing,14,10,1
+Blue Cut,Quality Check Failed,9,6,1
+Single Vision,Quality Check Failed,5,5,1
+Progressive,Prescription Verified,4,10,0
+Progressive,Prescription Verified,7,10,0
+Progressive,Prescription Verified,5,10,0
+Progressive,Lens Allocated,12,10,1
+Bifocal,Reorder Required,6,7,1
+Bifocal,Lens Allocated,7,7,1
+Bifocal,Quality Check Failed,7,7,1
+Single Vision,Dispatched,2,5,0
+Bifocal,Reorder Required,8,7,1
+Blue Cut,Reorder Required,11,6,1
+Single Vision,Order Placed,3,5,0
+Progressive,Order Placed,8,10,0
+Bifocal,Quality Check,2,7,0
+Blue Cut,Dispatched,8,6,1
+Photochromic,Prescription Verified,4,8,0
+Photochromic,Quality Check Failed,8,8,1
+Blue Cut,Manufacturing,6,6,1
+Bifocal,Quality Check,0,7,0
+Blue Cut,Quality Check,5,6,0
+Single Vision,Dispatched,1,5,0
+Bifocal,Manufacturing,12,7,1
+Photochromic,Reorder Required,2,8,1
+Bifocal,Manufacturing,12,7,0
+Progressive,Lens Allocated,10,10,1
+Progressive,Quality Check,8,10,0
+Photochromic,Prescription Verified,2,8,0
+Blue Cut,Order Placed,4,6,0
+Bifocal,Lens Allocated,3,7,0
+Bifocal,Quality Check Failed,3,7,1
+Blue Cut,Dispatched,2,6,0
+Photochromic,Quality Check,10,8,1
+Blue Cut,Prescription Verified,10,6,1
+Single Vision,Reorder Required,8,5,1
+Progressive,Dispatched,15,10,1
+Single Vision,Prescription Verified,7,5,1
+Progressive,Prescription Verified,12,10,1
+Blue Cut,Manufacturing,7,6,1
+Progressive,Lens Allocated,15,10,1
+Single Vision,Order Placed,1,5,0
+Blue Cut,Order Placed,1,6,0
+Bifocal,Dispatched,7,7,0
+Blue Cut,Manufacturing,11,6,1
+Progressive,Lens Allocated,8,10,0
+Single Vision,Quality Check Failed,4,5,0
+Bifocal,Order Placed,6,7,1
+Bifocal,Reorder Required,10,7,0
+Bifocal,Dispatched,1,7,0
+Bifocal,Manufacturing,8,7,1
+Progressive,Prescription Verified,13,10,1
+Blue Cut,Prescription Verified,3,6,0
+Blue Cut,Prescription Verified,11,6,1
+Single Vision,Quality Check Failed,5,5,1
+Bifocal,Lens Allocated,1,7,0
+Photochromic,Order Placed,9,8,1
+Blue Cut,Quality Check Failed,11,6,1
+Blue Cut,Dispatched,3,6,0
+Single Vision,Prescription Verified,2,5,0
+Single Vision,Reorder Required,5,5,1
+Bifocal,Manufacturing,4,7,0
+Single Vision,Manufacturing,8,5,1
+Progressive,Order Placed,9,10,1
+Photochromic,Manufacturing,11,8,1
+Bifocal,Dispatched,6,7,0
+Blue Cut,Prescription Verified,8,6,1
+Single Vision,Quality Check Failed,5,5,1
+Photochromic,Reorder Required,5,8,1
+Bifocal,Dispatched,12,7,0
+Photochromic,Prescription Verified,0,8,0
+Progressive,Manufacturing,1,10,0
+Single Vision,Reorder Required,8,5,1
+Blue Cut,Reorder Required,11,6,1
+Photochromic,Lens Allocated,4,8,0
+Single Vision,Quality Check,1,5,0
+Photochromic,Manufacturing,12,8,1
+Photochromic,Prescription Verified,4,8,0
+Blue Cut,Manufacturing,0,6,0
+Bifocal,Prescription Verified,6,7,0
+Photochromic,Order Placed,4,8,0
+Bifocal,Prescription Verified,0,7,0
+Bifocal,Order Placed,2,7,0
+Blue Cut,Quality Check Failed,8,6,1
+Progressive,Lens Allocated,11,10,0
+Progressive,Prescription Verified,0,10,0
+Progressive,Reorder Required,8,10,1
+Progressive,Prescription Verified,15,10,1
+Progressive,Order Placed,15,10,1
+Bifocal,Quality Check Failed,2,7,0
+Single Vision,Prescription Verified,3,5,0
+Photochromic,Order Placed,0,8,0
+Single Vision,Manufacturing,0,5,0
+Blue Cut,Quality Check Failed,6,6,1
+Single Vision,Reorder Required,3,5,1
+Blue Cut,Quality Check Failed,4,6,1
+Photochromic,Quality Check Failed,1,8,1
+Single Vision,Lens Allocated,3,5,0
+Photochromic,Order Placed,6,8,0
+Single Vision,Dispatched,4,5,0
+Progressive,Quality Check Failed,2,10,1
+Single Vision,Quality Check Failed,3,5,0
+Progressive,Manufacturing,14,10,1
+Bifocal,Manufacturing,2,7,0
+Single Vision,Reorder Required,0,5,0
+Progressive,Order Placed,10,10,0
+Blue Cut,Quality Check,1,6,0
+Bifocal,Manufacturing,6,7,1
+Bifocal,Quality Check,1,7,0
+Single Vision,Manufacturing,8,5,1
+Blue Cut,Prescription Verified,9,6,0
+Bifocal,Reorder Required,1,7,1
+Single Vision,Reorder Required,10,5,1
+Progressive,Quality Check Failed,12,10,1
+Progressive,Dispatched,8,10,0
+Bifocal,Prescription Verified,3,7,0
+Bifocal,Prescription Verified,2,7,0
+Single Vision,Lens Allocated,7,5,1
+Blue Cut,Prescription Verified,8,6,1
+Bifocal,Dispatched,4,7,0
+Blue Cut,Quality Check,1,6,0
+Single Vision,Lens Allocated,10,5,1
+Photochromic,Order Placed,3,8,0
+Progressive,Lens Allocated,2,10,0
+Bifocal,Quality Check Failed,6,7,1
+Progressive,Lens Allocated,0,10,0
+Blue Cut,Dispatched,8,6,1
+Bifocal,Prescription Verified,7,7,0
+Bifocal,Prescription Verified,0,7,0
+Single Vision,Manufacturing,2,5,0
+Bifocal,Reorder Required,5,7,1
+Single Vision,Quality Check,1,5,0
+Single Vision,Prescription Verified,3,5,0
+Blue Cut,Lens Allocated,1,6,0
+Progressive,Prescription Verified,1,10,0
+Blue Cut,Order Placed,2,6,0
+Photochromic,Reorder Required,13,8,1
+Blue Cut,Reorder Required,2,6,1
+Bifocal,Quality Check,4,7,0
+Blue Cut,Lens Allocated,0,6,0
+Photochromic,Manufacturing,10,8,1
+Photochromic,Dispatched,0,8,0
+Single Vision,Quality Check,6,5,0
+Bifocal,Manufacturing,10,7,1
+Single Vision,Reorder Required,5,5,1
+Progressive,Quality Check Failed,12,10,1
+Photochromic,Manufacturing,0,8,0
+Progressive,Order Placed,15,10,1
+Photochromic,Manufacturing,2,8,0
+Single Vision,Manufacturing,10,5,1
+Single Vision,Manufacturing,9,5,1
+Progressive,Lens Allocated,5,10,0
+Bifocal,Quality Check Failed,12,7,1
+Photochromic,Order Placed,11,8,1
+Photochromic,Lens Allocated,9,8,1
+Blue Cut,Quality Check,2,6,0
+Blue Cut,Order Placed,1,6,0
+Single Vision,Manufacturing,9,5,1
+Single Vision,Quality Check Failed,9,5,1
+Bifocal,Quality Check Failed,0,7,0
+Photochromic,Lens Allocated,12,8,0
+Photochromic,Quality Check Failed,1,8,1
+Blue Cut,Prescription Verified,5,6,0
+Progressive,Quality Check Failed,4,10,1
+Blue Cut,Dispatched,10,6,1
+Photochromic,Quality Check Failed,3,8,1
+Bifocal,Reorder Required,4,7,1
+Progressive,Lens Allocated,5,10,0
+Single Vision,Reorder Required,9,5,1
+Photochromic,Manufacturing,10,8,1
+Bifocal,Quality Check Failed,11,7,1
+Progressive,Lens Allocated,2,10,0
+Progressive,Dispatched,0,10,0
+Progressive,Manufacturing,7,10,1
+Progressive,Quality Check,3,10,0
+Single Vision,Order Placed,6,5,1
+Blue Cut,Lens Allocated,6,6,1
+Blue Cut,Quality Check Failed,8,6,1
+Photochromic,Manufacturing,2,8,0
+Blue Cut,Prescription Verified,0,6,0
+Progressive,Order Placed,10,10,1
+Single Vision,Prescription Verified,5,5,1
+Blue Cut,Lens Allocated,11,6,0
+Single Vision,Quality Check Failed,9,5,1
+Single Vision,Reorder Required,10,5,1
+Bifocal,Order Placed,1,7,0
+Progressive,Manufacturing,6,10,0
+Blue Cut,Quality Check,10,6,1
+Bifocal,Prescription Verified,0,7,0
+Blue Cut,Dispatched,2,6,0
+Single Vision,Quality Check Failed,0,5,1
+Progressive,Dispatched,6,10,0
+Single Vision,Order Placed,3,5,0
+Bifocal,Quality Check,1,7,0
+Blue Cut,Prescription Verified,4,6,0
+Blue Cut,Dispatched,7,6,1
+Progressive,Prescription Verified,12,10,1
+Blue Cut,Quality Check Failed,2,6,1
+Progressive,Dispatched,14,10,1
+Progressive,Order Placed,4,10,0
+Single Vision,Prescription Verified,10,5,1
+Photochromic,Reorder Required,12,8,1
+Blue Cut,Reorder Required,8,6,1
+Photochromic,Manufacturing,7,8,1
+Single Vision,Lens Allocated,1,5,0
+Blue Cut,Lens Allocated,2,6,0
+Bifocal,Manufacturing,2,7,0
+Single Vision,Reorder Required,1,5,1
+Blue Cut,Manufacturing,10,6,1
+Progressive,Prescription Verified,2,10,0
+Blue Cut,Reorder Required,8,6,1
+Blue Cut,Order Placed,11,6,1
+Photochromic,Reorder Required,1,8,1
+Bifocal,Prescription Verified,1,7,0
+Photochromic,Prescription Verified,12,8,1
+Photochromic,Quality Check Failed,6,8,0
+Blue Cut,Dispatched,0,6,0
+Bifocal,Quality Check,6,7,0
+Photochromic,Reorder Required,0,8,1
+Progressive,Manufacturing,1,10,0
+Blue Cut,Quality Check,5,6,0
+Single Vision,Quality Check Failed,4,5,1
+Blue Cut,Prescription Verified,3,6,0
+Bifocal,Quality Check,11,7,1
+Progressive,Quality Check,13,10,1
+Single Vision,Manufacturing,7,5,1
+Blue Cut,Quality Check Failed,0,6,1
+Bifocal,Prescription Verified,4,7,0
+Photochromic,Reorder Required,2,8,1
+Photochromic,Order Placed,2,8,0
+Bifocal,Manufacturing,0,7,0
+Bifocal,Order Placed,7,7,0
+Progressive,Manufacturing,8,10,0
+Blue Cut,Reorder Required,10,6,1
+Bifocal,Quality Check Failed,7,7,1
+Blue Cut,Quality Check Failed,5,6,0
+Progressive,Prescription Verified,9,10,0
+Single Vision,Lens Allocated,9,5,1
+Bifocal,Manufacturing,10,7,1
+Blue Cut,Order Placed,10,6,0
+Bifocal,Lens Allocated,9,7,1
+Bifocal,Quality Check,9,7,1
+Progressive,Quality Check,13,10,1
+Progressive,Dispatched,8,10,0
+Bifocal,Dispatched,4,7,0
+Photochromic,Reorder Required,9,8,1
+Progressive,Quality Check,9,10,1
+Blue Cut,Prescription Verified,5,6,0
+Progressive,Quality Check Failed,8,10,0
+Progressive,Manufacturing,4,10,0
+Photochromic,Manufacturing,0,8,0
+Photochromic,Reorder Required,10,8,1
+Single Vision,Dispatched,4,5,0
+Progressive,Reorder Required,12,10,1
+Photochromic,Manufacturing,5,8,1
+Bifocal,Dispatched,10,7,1
+Progressive,Lens Allocated,5,10,0
+Progressive,Prescription Verified,15,10,0
+Progressive,Lens Allocated,10,10,1
+Bifocal,Quality Check Failed,3,7,1
+Progressive,Reorder Required,10,10,1
+Blue Cut,Prescription Verified,7,6,0
+Photochromic,Prescription Verified,7,8,1
+Photochromic,Prescription Verified,13,8,1
+Photochromic,Quality Check,6,8,0
+Single Vision,Lens Allocated,2,5,0
+Bifocal,Quality Check Failed,6,7,1
+Blue Cut,Lens Allocated,5,6,0
+Bifocal,Prescription Verified,7,7,1
+Bifocal,Quality Check Failed,10,7,1
+Bifocal,Lens Allocated,9,7,1
+Blue Cut,Prescription Verified,2,6,0
+Photochromic,Reorder Required,10,8,1
+Blue Cut,Reorder Required,0,6,0
+Bifocal,Quality Check Failed,0,7,1
+Photochromic,Manufacturing,0,8,0
+Single Vision,Manufacturing,3,5,0
+Progressive,Quality Check,4,10,0
+Single Vision,Reorder Required,8,5,1
+Single Vision,Quality Check,4,5,0
+Blue Cut,Quality Check Failed,6,6,1
+Progressive,Dispatched,11,10,1
+Bifocal,Reorder Required,0,7,0
+Bifocal,Manufacturing,11,7,1
+Single Vision,Quality Check Failed,10,5,1
+Progressive,Order Placed,1,10,0
+Single Vision,Order Placed,0,5,0
+Single Vision,Reorder Required,7,5,1
+Blue Cut,Lens Allocated,3,6,0
+Single Vision,Quality Check,6,5,1
+Photochromic,Quality Check,9,8,1
+Bifocal,Reorder Required,1,7,1
+Photochromic,Prescription Verified,4,8,0
+Single Vision,Prescription Verified,7,5,1
+Bifocal,Quality Check,8,7,1
+Progressive,Reorder Required,9,10,1
+Bifocal,Dispatched,5,7,0
+Bifocal,Order Placed,0,7,0
+Single Vision,Prescription Verified,9,5,1
+Bifocal,Prescription Verified,12,7,1
+Single Vision,Quality Check,10,5,1
+Progressive,Quality Check,14,10,0
+Bifocal,Order Placed,4,7,0
+Progressive,Quality Check Failed,13,10,1
+Single Vision,Order Placed,2,5,0
+Bifocal,Quality Check Failed,5,7,1
+Photochromic,Quality Check,11,8,0
+Progressive,Lens Allocated,3,10,0
+Blue Cut,Reorder Required,7,6,1
+Blue Cut,Reorder Required,10,6,1
+Bifocal,Order Placed,2,7,0
+Single Vision,Reorder Required,9,5,1
+Blue Cut,Lens Allocated,9,6,1
+Progressive,Order Placed,4,10,0
+Blue Cut,Dispatched,1,6,0
+Blue Cut,Dispatched,0,6,0
+Single Vision,Quality Check,10,5,1
+Photochromic,Manufacturing,10,8,1
+Photochromic,Prescription Verified,6,8,0
+Bifocal,Dispatched,5,7,0
+Blue Cut,Lens Allocated,8,6,1
+Photochromic,Order Placed,0,8,0
+Bifocal,Dispatched,7,7,1
+Single Vision,Dispatched,5,5,1
+Progressive,Order Placed,7,10,0
+Photochromic,Reorder Required,6,8,1
+Single Vision,Dispatched,7,5,1
+Blue Cut,Prescription Verified,7,6,1
+Single Vision,Dispatched,10,5,0
+Blue Cut,Reorder Required,0,6,1
+Single Vision,Prescription Verified,9,5,1
+Progressive,Manufacturing,14,10,1
+Single Vision,Manufacturing,7,5,1
+Photochromic,Dispatched,11,8,1
+Blue Cut,Prescription Verified,1,6,0
+Bifocal,Order Placed,5,7,0
+Progressive,Quality Check,11,10,1
+Single Vision,Lens Allocated,7,5,0
+Blue Cut,Prescription Verified,4,6,0
+Photochromic,Manufacturing,3,8,0
+Single Vision,Reorder Required,3,5,1
+Bifocal,Quality Check Failed,1,7,1
+Single Vision,Prescription Verified,7,5,1
+Photochromic,Lens Allocated,7,8,0
+Single Vision,Reorder Required,9,5,1
+Bifocal,Lens Allocated,11,7,1
+Single Vision,Reorder Required,10,5,1
+Photochromic,Reorder Required,6,8,1
+Bifocal,Quality Check,6,7,1
+Progressive,Dispatched,4,10,0
+Bifocal,Reorder Required,9,7,1
+Progressive,Quality Check Failed,6,10,0
+Photochromic,Quality Check,10,8,1
+Bifocal,Lens Allocated,8,7,1
+Progressive,Prescription Verified,11,10,1
+Photochromic,Reorder Required,10,8,1
+Progressive,Reorder Required,0,10,1
+Single Vision,Reorder Required,2,5,0
+Single Vision,Manufacturing,4,5,1
+Bifocal,Quality Check,10,7,1
+Single Vision,Quality Check,3,5,0
+Photochromic,Order Placed,5,8,0
+Blue Cut,Prescription Verified,9,6,1
+Photochromic,Manufacturing,11,8,1
+Photochromic,Quality Check,11,8,1
+Blue Cut,Reorder Required,6,6,1
+Progressive,Order Placed,0,10,0
+Progressive,Manufacturing,14,10,1
+Progressive,Manufacturing,6,10,0
+Progressive,Dispatched,5,10,0
+Single Vision,Lens Allocated,2,5,0
+Photochromic,Prescription Verified,6,8,0
+Single Vision,Reorder Required,4,5,1
+Bifocal,Lens Allocated,9,7,1
+Single Vision,Quality Check Failed,7,5,1
+Bifocal,Quality Check Failed,9,7,1
+Photochromic,Quality Check,7,8,1
+Photochromic,Quality Check Failed,1,8,1
+Progressive,Manufacturing,5,10,0
+Photochromic,Prescription Verified,12,8,1
+Blue Cut,Reorder Required,1,6,1
+Bifocal,Quality Check Failed,5,7,1
+Bifocal,Dispatched,8,7,1
+Single Vision,Prescription Verified,10,5,1
+Bifocal,Manufacturing,0,7,0
+Progressive,Reorder Required,3,10,1
+Photochromic,Quality Check,0,8,0
+Photochromic,Quality Check Failed,8,8,1
+Single Vision,Quality Check,10,5,1
+Photochromic,Prescription Verified,1,8,0
+Bifocal,Order Placed,10,7,0
+Bifocal,Reorder Required,1,7,0
+Blue Cut,Prescription Verified,11,6,1
+Single Vision,Dispatched,5,5,0
+Single Vision,Order Placed,2,5,0
+Progressive,Prescription Verified,7,10,0
+Progressive,Reorder Required,12,10,1
+Progressive,Order Placed,12,10,1
+Photochromic,Order Placed,10,8,1
+Single Vision,Order Placed,1,5,0
+Progressive,Prescription Verified,9,10,1
+Progressive,Prescription Verified,9,10,1
+Blue Cut,Reorder Required,6,6,1
+Bifocal,Manufacturing,2,7,0
+Blue Cut,Quality Check,10,6,0
+Progressive,Order Placed,4,10,0
+Single Vision,Order Placed,0,5,0
+Photochromic,Reorder Required,8,8,1
+Bifocal,Quality Check Failed,3,7,1
+Photochromic,Lens Allocated,2,8,0
+Bifocal,Manufacturing,9,7,1
+Bifocal,Order Placed,12,7,1
+Photochromic,Dispatched,10,8,1
+Progressive,Prescription Verified,8,10,0
+Single Vision,Manufacturing,9,5,1
+Bifocal,Manufacturing,1,7,0
+Progressive,Prescription Verified,6,10,0
+Progressive,Dispatched,14,10,1
+Progressive,Lens Allocated,11,10,1
+Blue Cut,Lens Allocated,0,6,0
+Progressive,Manufacturing,7,10,1
+Blue Cut,Quality Check,5,6,0
+Bifocal,Quality Check Failed,7,7,1
+Progressive,Dispatched,3,10,0
+Bifocal,Prescription Verified,4,7,0
+Bifocal,Manufacturing,4,7,0
+Single Vision,Prescription Verified,0,5,0
+Photochromic,Order Placed,13,8,1
+Blue Cut,Manufacturing,0,6,0
+Photochromic,Quality Check,8,8,1
+Photochromic,Dispatched,10,8,1
+Progressive,Reorder Required,7,10,1
+Photochromic,Quality Check,2,8,0
+Blue Cut,Prescription Verified,6,6,1
+Single Vision,Manufacturing,9,5,1
+Bifocal,Dispatched,2,7,0
+Bifocal,Lens Allocated,11,7,1
+Progressive,Order Placed,7,10,0
+Blue Cut,Manufacturing,1,6,0
+Progressive,Quality Check Failed,7,10,0
+Bifocal,Quality Check Failed,6,7,1
+Single Vision,Order Placed,10,5,1
+Photochromic,Quality Check,13,8,1
+Photochromic,Lens Allocated,6,8,0
+Blue Cut,Quality Check Failed,9,6,1
+Photochromic,Quality Check,6,8,0
+Bifocal,Reorder Required,5,7,1
+Progressive,Dispatched,15,10,1
+Single Vision,Lens Allocated,7,5,1
+Single Vision,Quality Check,3,5,0
+Bifocal,Lens Allocated,2,7,0
+Progressive,Prescription Verified,7,10,0
+Blue Cut,Quality Check Failed,11,6,1
+Blue Cut,Manufacturing,9,6,1
+Single Vision,Manufacturing,0,5,0
+Bifocal,Lens Allocated,2,7,0
+Photochromic,Order Placed,9,8,0
+Bifocal,Quality Check,2,7,0
+Photochromic,Reorder Required,9,8,1
+Progressive,Prescription Verified,6,10,0
+Blue Cut,Dispatched,7,6,1
+Blue Cut,Lens Allocated,9,6,1
+Bifocal,Quality Check,2,7,0
+Progressive,Dispatched,2,10,0
+Bifocal,Reorder Required,6,7,0
+Photochromic,Reorder Required,13,8,0
+Blue Cut,Order Placed,8,6,1
+Single Vision,Prescription Verified,7,5,1
+Photochromic,Order Placed,12,8,1
+Blue Cut,Reorder Required,5,6,1
+Photochromic,Reorder Required,3,8,1
+Blue Cut,Reorder Required,5,6,1
+Photochromic,Prescription Verified,6,8,0
+Bifocal,Quality Check,7,7,1
+Single Vision,Quality Check,9,5,1
+Blue Cut,Quality Check,3,6,0
+Single Vision,Order Placed,9,5,1
+Photochromic,Order Placed,6,8,0
+Bifocal,Quality Check Failed,6,7,1
+Photochromic,Quality Check,4,8,0
+Photochromic,Reorder Required,9,8,1
+Blue Cut,Manufacturing,6,6,1
+Bifocal,Quality Check Failed,8,7,1
+Progressive,Quality Check Failed,12,10,1
+Single Vision,Manufacturing,7,5,1
+Single Vision,Manufacturing,8,5,1
+Photochromic,Order Placed,2,8,0
+Blue Cut,Order Placed,1,6,0
+Bifocal,Dispatched,9,7,1
