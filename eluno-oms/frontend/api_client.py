@@ -5,7 +5,7 @@ import os
 
 import httpx
 
-API_BASE = os.getenv("API_BASE_URL", "http://127.0.0.1:8000")
+API_BASE = os.getenv("API_BASE_URL", "https://eluno-oms-6tn5.onrender.com")
 TIMEOUT = 30.0
 
 
