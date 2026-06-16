@@ -1,156 +1,348 @@
-# Eluno OMS
+# Eluno OMS – AI-Powered Order Management System
 
-AI-Powered Order Management System for **Eluno**, a fashion-first eyewear brand. Handles prescription-driven order lifecycle, lens inventory, SLA monitoring, ML-based breach prediction, automated alerts, and an AI operations copilot.
+AI-powered Order Management System built for Eluno Eyewear.
 
-## Features
+## Live Demo
 
-- **Lens Inventory Management** — CRUD + availability lookup (In House vs Vendor Procurement)
-- **Order Lifecycle** — Full eyewear workflow with QC failure / reorder path
-- **SLA Monitoring** — Green / Yellow / Red health with countdown
-- **SLA Breach Prediction** — RandomForest classifier on synthetic historical data
-- **Automated Alerts** — Dashboard + SMTP email when breach probability > 70%
-- **AI Operations Copilot** — Groq Llama assistant grounded in live DB context
+### Product URL
+https://eluno-oms-1.onrender.com/
 
-## Architecture
+### Backend API
+https://eluno-oms-6tn5.onrender.com/
+
+### API Documentation
+https://eluno-oms-6tn5.onrender.com/docs
+
+---
+
+# Overview
+
+Eluno OMS digitizes the eyewear order lifecycle and adds AI-powered operational intelligence.
+
+The system supports:
+
+- End-to-end order workflow management
+- Inventory visibility and lens availability checks
+- SLA breach prediction using Machine Learning
+- Automated alert generation
+- AI Operations Copilot
+- Complete order audit trail
+
+---
+
+# Features
+
+## Order Workflow Management
+
+Supported workflow:
 
 ```
-Streamlit UI  →  FastAPI REST API  →  SQLite (SQLAlchemy)
-                      ↓
-              RandomForest ML + Groq LLM + SMTP Alerts
+New
+ ↓
+Frame Allocated
+ ↓
+Lens Allocated
+ ↓
+Manufacturing
+ ↓
+Quality Check
+ ↓
+Ready To Ship
+ ↓
+Delivered
 ```
 
-Monolithic, single-repo, deployable MVP — no microservices.
+Workflow enforcement rules:
 
-## Setup
+- Orders can only move to the next valid stage
+- Full status history tracking
+- Reorder support for QC failures
 
-### 1. Clone and create virtual environment
+---
+
+## Inventory Availability Engine
+
+Inventory lookup API:
+
+```http
+POST /inventory/availability
+```
+
+Example:
+
+```json
+{
+  "sphere": -2,
+  "cylinder": -1,
+  "axis": 180,
+  "lens_type": "Single Vision",
+  "coating": "Anti-Reflective"
+}
+```
+
+Possible outcomes:
+
+- In-House Inventory Available
+- Vendor Procurement Required
+- Estimated Turnaround Time (TAT)
+
+---
+
+## SLA Breach Prediction
+
+Machine Learning model predicts potential SLA violations.
+
+Features used:
+
+- Order age
+- Inventory status
+- Procurement requirements
+- Workflow stage
+- Historical fulfillment patterns
+
+Outputs:
+
+- Risk score
+- High-risk order identification
+- Operational recommendations
+
+---
+
+## Alert Engine
+
+Automatically generates alerts for:
+
+- Potential SLA breaches
+- Delayed orders
+- Workflow bottlenecks
+
+---
+
+## AI Copilot
+
+Natural language operations assistant.
+
+Example questions:
+
+- Which orders are likely to breach SLA?
+- Show delayed manufacturing orders.
+- What is causing bottlenecks today?
+- Which orders require procurement?
+
+---
+
+# Architecture
+
+```text
+Orders
+   ↓
+Workflow Engine
+   ↓
+Inventory Engine
+   ↓
+ML Prediction Layer
+   ↓
+Alert Engine
+   ↓
+AI Copilot
+   ↓
+Dashboard
+```
+
+---
+
+# Tech Stack
+
+## Backend
+
+- FastAPI
+- SQLAlchemy
+- SQLite
+- Pydantic
+
+## Machine Learning
+
+- Scikit-Learn
+- Pandas
+- Joblib
+
+## Frontend
+
+- Streamlit
+- Plotly
+
+## AI
+
+- Groq LLM
+- Rule-Based Fallback Engine
+
+## Deployment
+
+- Render 
+
+---
+
+# Project Structure
+
+```text
+backend/
+├── routers/
+├── services/
+├── schemas/
+├── models/
+├── ml/
+└── database/
+
+frontend/
+├── pages/
+├── api_client.py
+└── app.py
+
+data/
+├── eluno_oms.db
+├── models/
+└── synthetic_orders.csv
+
+scripts/
+├── init_db.py
+├── seed_inventory.py
+├── seed_orders.py
+└── train_model.py
+```
+
+---
+
+# API Endpoints
+
+## Orders
+
+```http
+GET    /orders
+POST   /orders
+PATCH  /orders/{id}/status
+GET    /orders/{id}/history
+```
+
+## Inventory
+
+```http
+GET    /inventory
+POST   /inventory/availability
+GET    /inventory/summary
+```
+
+## Predictions
+
+```http
+POST   /predictions/run
+GET    /predictions
+```
+
+## Alerts
+
+```http
+GET    /alerts
+```
+
+## AI Copilot
+
+```http
+POST   /copilot/chat
+```
+
+---
+
+# Assignment Validation
+
+### Completed Scenarios
+
+✅ Full Order Lifecycle → Delivered
+
+✅ QC Failure → Reorder Workflow
+
+✅ Inventory Availability Lookup
+
+✅ SLA Risk Prediction
+
+✅ Alert Generation
+
+✅ Frontend Dashboard
+
+✅ Backend API
+
+✅ Cloud Deployment
+
+# Extra Assignment Validation
+
+
+✅ AI Copilot
+
+---
+
+# Sample Results
+
+### Inventory Lookup
+
+Input:
+
+```json
+{
+  "sphere": -2,
+  "cylinder": -1,
+  "axis": 180,
+  "lens_type": "Single Vision",
+  "coating": "Anti-Reflective"
+}
+```
+
+Output:
+
+```text
+Vendor Procurement Required
+Estimated TAT: 4 Days
+```
+
+### SLA Monitoring
+
+```text
+Scored 10 Orders
+3 High-Risk Orders
+0 Alerts Sent
+```
+
+---
+
+# Local Setup
+
+## Clone Repository
 
 ```bash
+git clone https://github.com/KiranBiju/eluno-oms.git
 cd eluno-oms
-python -m venv .venv
+```
 
-# Windows
-.venv\Scripts\activate
+## Install Dependencies
 
-# macOS/Linux
-source .venv/bin/activate
-
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Configure environment
+## Run Backend
 
 ```bash
-copy .env.example .env   # Windows
-# cp .env.example .env   # macOS/Linux
+uvicorn backend.main:app --reload
 ```
 
-Edit `.env` with your credentials:
+## Run Frontend
 
-| Variable | Description |
-|----------|-------------|
-| `GROQ_API_KEY` | Groq API key for AI Chatbot |
-| `SMTP_USER` / `SMTP_PASSWORD` | Email alerts (optional for demo) |
-| `ALERT_TO_EMAIL` | Alert recipient |
-
-### 3. Initialize database and seed data
-
-```bash
-python scripts/init_db.py
-python scripts/seed_inventory.py
-python scripts/seed_orders.py
-python scripts/train_model.py
-```
-
-### 4. Run the application
-
-**Terminal 1 — Backend:**
-```bash
-uvicorn backend.main:app --reload --port 8000
-```
-
-**Terminal 2 — Frontend:**
 ```bash
 streamlit run frontend/app.py
 ```
 
-**Terminal 3 — Alert engine (optional, periodic):**
-```bash
-python scripts/run_alert_engine.py
-```
+---
 
-- API docs: http://127.0.0.1:8000/docs
-- Streamlit UI: http://localhost:8501
+# Author
 
-## Environment Variables
+Kiran Biju
 
-See `.env.example` for full list. Key variables:
-
-```
-DATABASE_URL=sqlite:///./data/eluno_oms.db
-GROQ_API_KEY=your_groq_api_key
-GROQ_MODEL=llama-3.3-70b-versatile
-BREACH_ALERT_THRESHOLD=0.70
-```
-
-## Train ML Model
-
-```bash
-python scripts/train_model.py
-```
-
-Generates 1200+ synthetic records in `data/synthetic_orders.csv` and trains a RandomForest model saved to `data/models/sla_breach_model.joblib`.
-
-## Run Alert Engine
-
-```bash
-python scripts/run_alert_engine.py
-```
-
-Scores all active orders, stores predictions, and triggers email alerts for high-risk orders.
-
-## Groq Configuration
-
-1. Sign up at [console.groq.com](https://console.groq.com)
-2. Create an API key
-3. Set `GROQ_API_KEY` in `.env`
-
-The copilot falls back to rule-based answers if Groq is not configured.
-
-## Project Structure
-
-```
-eluno-oms/
-├── backend/          # FastAPI app, models, services, ML
-├── frontend/         # Streamlit UI (6 pages)
-├── scripts/          # DB init, seed, train, alerts
-├── data/             # SQLite DB, synthetic data, ML model
-├── README.md
-└── ARCHITECTURE.md
-```
-
-## Demo Flow
-
-1. Open **Orders** → create a Progressive lens order with out-of-stock Rx → see Vendor Procurement TAT
-2. Advance order through workflow → trigger QC Failed → Reorder Required
-3. Go to **SLA Monitoring** → Run Predictions → see breach probability
-4. Check **Alerts** for high-risk notifications
-5. Ask **AI Chatbot**: *"Which orders are at highest risk?"*
-
-## API Endpoints
-
-| Method | Path | Description |
-|--------|------|-------------|
-| GET/POST | `/inventory` | Inventory CRUD |
-| GET/POST | `/inventory/availability` | Lens availability check |
-| GET/POST | `/orders` | Order CRUD |
-| PATCH | `/orders/{id}/status` | Workflow status transition |
-| GET | `/orders/{id}/sla` | SLA metrics |
-| POST | `/predictions/run` | Run ML predictions |
-| GET | `/predictions` | List predictions |
-| GET | `/alerts` | List alerts |
-| POST | `/copilot/chat` | AI Chatbot Q&A |
-
-## License
-
-Built as a hiring assignment MVP for Eluno.
+AI Engineer | Machine Learning | Generative AI | Agentic Systems
