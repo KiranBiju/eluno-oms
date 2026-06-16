@@ -1,0 +1,12 @@
+services:
+  # Frontend Streamlit Web Service
+  - type: web
+    name: eluno-oms-frontend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run eluno-oms/frontend/app.py --server.port=$PORT --server.address=0.0.0.0
+    envVars:
+      - key: API_BASE_URL
+        sync: false  # The URL of your deployed FastAPI backend on Render
+      - key: PYTHON_VERSION
+        value: "3.11.9"
